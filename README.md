@@ -44,30 +44,30 @@ This project is currently in the early prototyping stage.
 
 Here is the planned development path:
 
-*   **Phase 1: Problem Definition & Solution Evaluation**
-  *   [x] Problem understood and clearly defined.
-  *   [x] Solution approach with a programmable microcontroller and galvanic isolation evaluated as ideal.
+- [x]   **Phase 1: Problem Definition & Solution Evaluation**
+  -   [x] Problem understood and clearly defined.
+  -   [x] Solution approach with a programmable microcontroller and galvanic isolation evaluated as ideal.
 
-*   **Phase 2: Arduino Output Test (Current Phase)**
-  *   [ ] Generation of a stable 500 Hz PWM signal with the Arduino.
-  *   [ ] Test of direct control of the OEG pump with the generated signal to verify basic compatibility.
+- [X]   **Phase 2: Arduino Output Test (Current Phase)**
+  -   [X] Generation of a stable 500 Hz PWM signal with the Arduino.
+  -   [X] Test of direct control of the OEG pump with the generated signal to verify basic compatibility.
 
-*   **Phase 3: Optocoupler Input Test**
-  *   [ ] Setup of the input circuit with the ILD213T optocoupler on an Arduino Uno for testing purposes.
-  *   [ ] Verification that the external PWM signal can be read safely and correctly.
+- [ ]   **Phase 3: Optocoupler Input Test**
+  -   [ ] Setup of the input circuit with the ILD213T optocoupler on an Arduino Uno for testing purposes.
+  -   [ ] Verification that the external PWM signal can be read safely and correctly.
 
-*   **Phase 4: Integration Test**
-  *   [ ] Merging of input and output logic into a single sketch.
-  *   [ ] Test of the complete "translation process" on the lab bench (test signal -> adapter -> measuring device).
+- [ ]   **Phase 4: Integration Test**
+  -   [ ] Merging of input and output logic into a single sketch.
+  -   [ ] Test of the complete "translation process" on the lab bench (test signal -> adapter -> measuring device).
 
-*   **Phase 5: Prototyping with Arduino Nano & Enclosure**
-  *   [ ] Transfer of the working circuit to a more compact perfboard with the Arduino Nano.
-  *   [ ] Design and 3D printing of a suitable, functional enclosure.
+- [ ]   **Phase 5: Prototyping with Arduino Nano & Enclosure**
+  -   [ ] Transfer of the working circuit to a more compact perfboard with the Arduino Nano.
+  -   [ ] Design and 3D printing of a suitable, functional enclosure.
 
-*   **Phase 6: Finalization & Field Test**
-  *   [ ] Installation of the final prototype in the enclosure.
-  *   [ ] Long-term test of the adapter in the real heating system.
-  *   [ ] Cleanup of documentation and code.
+- [ ]   **Phase 6: Finalization & Field Test**
+  -   [ ] Installation of the final prototype in the enclosure.
+  -   [ ] Long-term test of the adapter in the real heating system.
+  -   [ ] Cleanup of documentation and code.
 
 ## Hardware & Circuit
 
